@@ -34,6 +34,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="be8-af-ETB" kind="show" id="XdC-eb-gsM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.60411518812179565" green="0.82714450359344482" blue="0.68599969148635864" alpha="0.9998779296875" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,19 +48,121 @@
             <point key="canvasLocation" x="-57" y="118"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="MQz-js-o3B">
+            <objects>
+                <viewController id="Vau-Id-DMl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LMp-QS-z59">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSS-Ty-yVv">
+                                <rect key="frame" x="318" y="761" width="62" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="RHO-Pv-IHo" kind="show" id="g5D-JF-faT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60419762134552002" green="0.82742363214492798" blue="0.68615800142288208" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="tgy-e7-MSj"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UgT-ny-bWQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6tU-eF-292" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-777" y="791"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tcP-mi-xpP">
+            <objects>
+                <viewController id="RHO-Pv-IHo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="odk-Gd-keQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBv-Eb-i1U">
+                                <rect key="frame" x="325" y="779" width="62" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="kgp-9t-x9f" kind="show" id="BHP-ts-qwj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60419762134552002" green="0.82742363214492798" blue="0.68615800142288208" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="KTi-Q8-cR3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GOo-Gl-wVS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djE-GX-R7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-778" y="1484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="x1t-Zc-Jax">
+            <objects>
+                <viewController id="kgp-9t-x9f" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0hs-AA-NjP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srS-YI-XXt">
+                                <rect key="frame" x="321" y="780" width="62" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="LWN-Gz-TTa" kind="show" id="LvU-cw-h53"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60419762134552002" green="0.82742363214492798" blue="0.68615800142288208" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="QKc-Dd-I4n"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PUo-hR-ej6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DQe-1Y-WbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="1484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HKV-Ph-ES7">
+            <objects>
+                <viewController id="be8-af-ETB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hf3-lp-g8m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO1-s3-pwX">
+                                <rect key="frame" x="322" y="759" width="62" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Vau-Id-DMl" kind="show" id="9ZQ-Lx-7dJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60419762134552002" green="0.82742363214492798" blue="0.68615800142288208" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="gn7-7R-L0O"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q3e-kR-R2Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JD5-ah-nuF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="791"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="8fN-V3-hqk">
             <objects>
                 <viewController id="LWN-Gz-TTa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hVR-Vs-ahQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogt-PF-DGB">
-                                <rect key="frame" x="279" y="814" width="102" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
-                                <state key="normal" title="See History"/>
-                            </button>
                             <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feedback:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtX-ux-AO4">
                                 <rect key="frame" x="147" y="112" width="121" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -73,11 +178,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
                                 <state key="normal" title="Daily Quiz"/>
+                                <connections>
+                                    <segue destination="Qgy-VT-j5z" kind="show" id="KnR-wg-roU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogt-PF-DGB">
+                                <rect key="frame" x="276" y="776" width="102" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                <state key="normal" title="See History"/>
+                                <connections>
+                                    <segue destination="Gxb-tZ-5gj" kind="show" id="yL7-Lt-eqc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.6045985221862793" green="0.82759362459182739" blue="0.68646621704101562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="KMY-14-R9f"/>
                     </view>
+                    <navigationItem key="navigationItem" id="S2f-j8-pdA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w40-13-XaE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,7 +206,7 @@
             <objects>
                 <viewController id="Qgy-VT-j5z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7QZ-bK-f3R">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daily Quiz:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlw-7O-sJQ">
@@ -102,6 +220,7 @@
                         <color key="backgroundColor" red="0.6045985221862793" green="0.82759362459182739" blue="0.68646621704101562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Q8L-Ae-fhj"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Pap-5E-R0j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jF-MD-cSs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,7 +231,7 @@
             <objects>
                 <viewController id="Gxb-tZ-5gj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d4W-hD-4dz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGy-bh-dp6">
@@ -126,6 +245,7 @@
                         <color key="backgroundColor" red="0.60416537523269653" green="0.82716578245162964" blue="0.68603825569152832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="1rG-Ou-xBJ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Rvh-kW-hXg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3E2-pN-wkZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
