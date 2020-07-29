@@ -16,6 +16,7 @@
 		AD2F118524D1C9B200E72A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2F118324D1C9B200E72A5D /* LaunchScreen.storyboard */; };
 		AD2F119024D1C9B200E72A5D /* Envi_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F118F24D1C9B200E72A5D /* Envi_AppTests.swift */; };
 		AD2F119B24D1C9B200E72A5D /* Envi_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F119A24D1C9B200E72A5D /* Envi_AppUITests.swift */; };
+		AD2F11A924D1CD1300E72A5D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F11A824D1CD1300E72A5D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AD2F119624D1C9B200E72A5D /* Envi AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Envi AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2F119A24D1C9B200E72A5D /* Envi_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Envi_AppUITests.swift; sourceTree = "<group>"; };
 		AD2F119C24D1C9B200E72A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD2F11A824D1CD1300E72A5D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				AD2F118324D1C9B200E72A5D /* LaunchScreen.storyboard */,
 				AD2F118624D1C9B200E72A5D /* Info.plist */,
 				AD2F117E24D1C9AF00E72A5D /* Envi_App.xcdatamodeld */,
+				AD2F11A824D1CD1300E72A5D /* SecondViewController.swift */,
 			);
 			path = "Envi App";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				AD2F117A24D1C9AF00E72A5D /* ViewController.swift in Sources */,
 				AD2F117624D1C9AF00E72A5D /* AppDelegate.swift in Sources */,
 				AD2F117824D1C9AF00E72A5D /* SceneDelegate.swift in Sources */,
+				AD2F11A924D1CD1300E72A5D /* SecondViewController.swift in Sources */,
 				AD2F118024D1C9AF00E72A5D /* Envi_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
