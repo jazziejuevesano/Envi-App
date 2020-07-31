@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1891B04024D397C200FBFEA4 /* dailyquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B03F24D397C200FBFEA4 /* dailyquiz.swift */; };
+		1891B04224D397DB00FBFEA4 /* dailyquiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B04124D397DB00FBFEA4 /* dailyquiz2.swift */; };
+		1891B04424D397F000FBFEA4 /* stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B04324D397F000FBFEA4 /* stats.swift */; };
+		1891B04624D462C100FBFEA4 /* feedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B04524D462C100FBFEA4 /* feedbackViewController.swift */; };
+		1891B04824D4685E00FBFEA4 /* startquiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B04724D4685E00FBFEA4 /* startquiz2.swift */; };
+		1891B04A24D468DA00FBFEA4 /* startquiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B04924D468DA00FBFEA4 /* startquiz3.swift */; };
+		1891B04C24D4691E00FBFEA4 /* startquiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B04B24D4691E00FBFEA4 /* startquiz4.swift */; };
 		AD2F117624D1C9AF00E72A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F117524D1C9AF00E72A5D /* AppDelegate.swift */; };
 		AD2F117824D1C9AF00E72A5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F117724D1C9AF00E72A5D /* SceneDelegate.swift */; };
 		AD2F117A24D1C9AF00E72A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F117924D1C9AF00E72A5D /* ViewController.swift */; };
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1891B03F24D397C200FBFEA4 /* dailyquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyquiz.swift; sourceTree = "<group>"; };
+		1891B04124D397DB00FBFEA4 /* dailyquiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyquiz2.swift; sourceTree = "<group>"; };
+		1891B04324D397F000FBFEA4 /* stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stats.swift; sourceTree = "<group>"; };
+		1891B04524D462C100FBFEA4 /* feedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedbackViewController.swift; sourceTree = "<group>"; };
+		1891B04724D4685E00FBFEA4 /* startquiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startquiz2.swift; sourceTree = "<group>"; };
+		1891B04924D468DA00FBFEA4 /* startquiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startquiz3.swift; sourceTree = "<group>"; };
+		1891B04B24D4691E00FBFEA4 /* startquiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startquiz4.swift; sourceTree = "<group>"; };
 		AD2F117224D1C9AF00E72A5D /* Envi App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Envi App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2F117524D1C9AF00E72A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD2F117724D1C9AF00E72A5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,8 +119,15 @@
 			children = (
 				AD2F117524D1C9AF00E72A5D /* AppDelegate.swift */,
 				AD2F117724D1C9AF00E72A5D /* SceneDelegate.swift */,
-				AD2F117924D1C9AF00E72A5D /* ViewController.swift */,
 				AD2F117B24D1C9AF00E72A5D /* Main.storyboard */,
+				AD2F117924D1C9AF00E72A5D /* ViewController.swift */,
+				1891B04524D462C100FBFEA4 /* feedbackViewController.swift */,
+				1891B04724D4685E00FBFEA4 /* startquiz2.swift */,
+				1891B04924D468DA00FBFEA4 /* startquiz3.swift */,
+				1891B04B24D4691E00FBFEA4 /* startquiz4.swift */,
+				1891B04324D397F000FBFEA4 /* stats.swift */,
+				1891B03F24D397C200FBFEA4 /* dailyquiz.swift */,
+				1891B04124D397DB00FBFEA4 /* dailyquiz2.swift */,
 				AD2F118124D1C9B200E72A5D /* Assets.xcassets */,
 				AD2F118324D1C9B200E72A5D /* LaunchScreen.storyboard */,
 				AD2F118624D1C9B200E72A5D /* Info.plist */,
@@ -268,8 +289,15 @@
 				AD2F117A24D1C9AF00E72A5D /* ViewController.swift in Sources */,
 				AD2F117624D1C9AF00E72A5D /* AppDelegate.swift in Sources */,
 				AD2F117824D1C9AF00E72A5D /* SceneDelegate.swift in Sources */,
+				1891B04424D397F000FBFEA4 /* stats.swift in Sources */,
+				1891B04A24D468DA00FBFEA4 /* startquiz3.swift in Sources */,
 				AD2F11A924D1CD1300E72A5D /* SecondViewController.swift in Sources */,
+				1891B04024D397C200FBFEA4 /* dailyquiz.swift in Sources */,
+				1891B04824D4685E00FBFEA4 /* startquiz2.swift in Sources */,
 				AD2F118024D1C9AF00E72A5D /* Envi_App.xcdatamodeld in Sources */,
+				1891B04224D397DB00FBFEA4 /* dailyquiz2.swift in Sources */,
+				1891B04C24D4691E00FBFEA4 /* startquiz4.swift in Sources */,
+				1891B04624D462C100FBFEA4 /* feedbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -450,6 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Envi-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -467,6 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Envi-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

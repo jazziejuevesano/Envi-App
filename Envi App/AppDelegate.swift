@@ -12,7 +12,14 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var totPoints = 100
+    
+    var forestincrease = 0
+    var airpollution = 0
+    var beepopulation = 0
+    var animalabuse = 0
+    var plasticconsumption = 0
+    var waterpollution = 0
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
